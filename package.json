@@ -1,0 +1,23 @@
+{
+  "name": "testproject",
+  "version": "1.0.0",
+  "description": "Testing Jenkins",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "./node_modules/.bin/mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/en0/TestProject.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/en0/TestProject/issues"
+  },
+  "homepage": "https://github.com/en0/TestProject#readme",
+  "devDependencies": {
+    "mocha": "^3.2.0"
+  }
+}
